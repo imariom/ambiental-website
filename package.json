@@ -1,0 +1,17 @@
+{
+  "name": "ambiental-consultores-website",
+  "version": "1.0.0",
+  "description": "This is the source code of the Ambiental Consultores, Lda website",
+  "scripts": {
+    "start": "php -S localhost:3000",
+    "build-dev": "postcss ./styles.css -o ./static/styles/compiled.css"
+  },
+  "keywords": [],
+  "author": "imariom",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.3.4",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.15"
+  }
+}
