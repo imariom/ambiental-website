@@ -4,7 +4,7 @@
   "description": "This is the source code of the Ambiental Consultores, Lda website",
   "scripts": {
     "start": "php -S localhost:3000",
-    "build-dev": "postcss ./styles.css -o ./static/styles/compiled.css"
+    "build-dev": "postcss ./styles.css -o ./styles/compiled.css"
   },
   "keywords": [],
   "author": "imariom",
